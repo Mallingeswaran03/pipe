@@ -1,0 +1,43 @@
+/* -----------slider------------------ */
+/* change transition duration to control the speed of fade effect */
+.carousel-item {
+    transition: transform 0.5s ease-in-out;
+}
+
+/* ------------------heading----------------- */
+.home-root .heading{
+text-align: center;
+font-size:36px;
+font-weight:700;
+margin:80px 0 20px 0;
+color:#8B008B;
+}
+/* -------------------categories------------- */
+.cat-col{
+    padding:5px;
+    text-align: center;
+}
+.cat-col1{
+    margin: auto;
+    padding:5px;
+    border-radius: 5px;
+    width:fit-content;
+    border: 1px solid rgb(240, 233, 233);
+    cursor: pointer;
+}
+.cat-col img{
+    width:auto;
+    max-height:250px;
+    object-fit:fit;
+}
+.cat-col1 div{
+    text-align: center;
+    color: #3A3A3A;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+.cat-col1:hover{
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    border: 1px solid gray;
+}

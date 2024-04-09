@@ -1,0 +1,25 @@
+/* Ud.css */
+
+.table-container {
+    overflow-x: auto;
+  }
+  
+  .table-3d {
+    border-collapse: separate;
+    border-spacing: 0;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  th {
+    background-color: #6a0dad; /* Violet color */
+    color: #fff;
+  }
+  
+  .table-row {
+    background-color: #f8f9fa;
+  }
+  
+  .no-items {
+    text-align: center;
+  }
+  

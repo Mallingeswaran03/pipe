@@ -1,0 +1,17 @@
+.footer-root {
+    background-color:#8B008B;
+    color: #FFFFFF;
+}
+
+.footer-root .heading1 {
+    font-size: 20px;
+    font-weight: 800;
+    color:#ffc800;
+}
+
+.footer-root .content {
+    padding-left: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}

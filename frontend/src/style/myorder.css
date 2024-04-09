@@ -1,0 +1,115 @@
+/* Add 3D styles for buttons */
+.custom-btn {
+    background-color: #ae1eb3;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+  
+  .custom-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add 3D styles for tables */
+  .custom-table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  
+  .custom-table th,
+  .custom-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .custom-table th {
+    background-color: #b42ca2;
+    color: white;
+  }
+  
+  .custom-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .custom-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Add 3D styles for modal */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition-duration: 0.4s;
+    border-radius: 10px;
+  }
+  
+  .modal-content h5 {
+    color: #333;
+  }
+  
+  .modal-content th,
+  .modal-content td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .modal-content th {
+    background-color: #932e9c;
+    color: white;
+  }
+  
+  .modal-content tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .modal-content tr:hover {
+    background-color: #ddd;
+  }
+  
+  .modal-content .btn-secondary {
+    background-color: #ccc;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  .modal-content .btn-secondary:hover {
+    background-color: #aaa;
+  }
+  
+
+/* Add animation for pending status */
+@keyframes statusAnimation {
+    0% { color: red; }
+    50% { color: orange; }
+    100% { color: red; }
+  }
+  
+  .custom-table .pending-status {
+    animation-name: statusAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }

@@ -1,0 +1,81 @@
+/* cart.css */
+
+/* Custom styles for the cart page */
+.plfontall {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Styles for the header section */
+  .page-header {
+    font-size: 18px;
+    background-color: orangered;
+    color: white;
+    padding: 5px;
+    font-weight: 600;
+  }
+  
+  /* Styles for the table */
+  .custom-table {
+    margin-top: 20px;
+  }
+  
+  .custom-table th {
+    background-color: rgb(138, 47, 150);
+    color: white;
+  }
+  
+  .custom-table th,
+  .custom-table td {
+    vertical-align: middle;
+  }
+  
+  /* Styles for the out of stock message */
+  .out-of-stock {
+    text-align: center;
+    color: gray;
+    font-weight: 900;
+    font-size: 16px;
+  }
+  
+  /* Styles for the checkout modal */
+  .modal-content {
+    background-color: #f8f9fa; /* Light gray background */
+  }
+  
+  .modal-title {
+    font-size: 25px;
+    color: green;
+    font-weight: 600;
+  }
+  
+  /* Styles for form elements in the modal */
+  .modal-body form span,
+  .modal-body form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .modal-body form input[type="number"],
+  .modal-body form textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the checkout button */
+  .modal-body form .btn-checkout {
+    width: 200px;
+    margin: auto;
+    display: block;
+  }
+  
+  /* Responsive styles for the modal */
+  @media (max-width: 768px) {
+    .modal-dialog {
+      max-width: 90%;
+    }
+  }
+  

@@ -1,0 +1,32 @@
+.contactus-root .heading1{
+    color:#ffc800;
+    font-size: 30px;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.contactus-root label{
+width:100%;
+margin:10px 0 5px 0;
+font-weight:500;
+font-size: 18px;
+}
+
+.contactus-root .input{
+    width:100%;
+}
+
+.contactus-root .contactus-btn{
+    text-align: center;
+    padding:8px 60px;
+    background-color:#8B008B;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.contactus-root .contactus-btn:hover{
+    background-color: #690069;
+}

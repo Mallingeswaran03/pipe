@@ -1,0 +1,27 @@
+.login-root label{
+    width:100%;
+    margin:10px 0 5px 0;
+    font-weight:500;
+    font-size: 18px;
+    }
+    
+    .login-root .input{
+        width:100%;
+    }
+    
+    .login-root .login-btn{
+        text-align: center;
+        padding:8px 60px;
+        background-color:#8B008B;
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        cursor: pointer;
+        border-radius: 4px;
+        border: none;
+    }
+    
+    .login-root .login-btn:hover{
+        background-color: #690069;
+    }
+    

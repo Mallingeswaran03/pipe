@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+.plfontall
+{
+    font-family: 'Jost', sans-serif;
+}
+
+
+.pllink
+{
+    text-align:left;
+    padding-left: 20px;
+    font-weight:600;
+    font-size:25px;
+    margin-bottom:25px;
+}
+
+
+.rent-furni-heading{
+    color: #3A3A3A;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    display: inline-block;
+    margin: 0 0 20px 0;
+}
+.rent-furni{
+    padding:10px;
+}
+.rent-furni1{
+    padding:5px 5px 0 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid transparent;
+}
+.rent-furni1 img{
+    width: 100%;
+    height:200px;
+    object-fit: cover;
+}
+.rent-furni1 span{
+    display: inline-block;
+    margin:5px 0;
+    font-family: 'Poppins', sans-serif;
+    color: #3A3A3A;
+    font-size: 18px;
+    font-weight: 400;
+}
+.rent-furni1:hover{
+    box-shadow: none;
+    border: 1px solid orange;
+}
+
+.rent-furni1 .btn{
+    background-color: blue;
+    color:white;
+    padding: 2px 10px;
+    text-align: center;
+    cursor: pointer;
+    display:block;
+}
